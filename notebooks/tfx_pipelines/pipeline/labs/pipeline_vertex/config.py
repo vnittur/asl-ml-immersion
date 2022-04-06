@@ -38,6 +38,7 @@ class Config:
         f"--project={PROJECT_ID}",
         f"--temp_location={os.path.join(PIPELINE_ROOT, 'beam')}",
         f"--region={REGION}",
+        f"--serviceAccount=qwiklabs-gcp-01-9a9d18213c32@qwiklabs-gcp-01-9a9d18213c32.iam.gserviceaccount.com",
         "--runner=DataflowRunner",
     ]
 
